@@ -1,20 +1,66 @@
-<!DOCTYPE html PUBLIC>
- 
- <html>
- 
+﻿<!DOCTYPE html>
+<html>
 <head>
- 
-    <title>Exercise 3</title>
- 
-    <link rel="Stylesheet"  href="ExercisePage3StyleSheet.css"/>
- 
-     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
- 
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  
+     <!--
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+-->
+  <link rel="stylesheet" href="proj.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+   
+</head>
 <body>
- 
-<h1>CONTACT FORM</h1>
- 
-              <form id="mycontact">
+<!-- Home -->
+<div data-role="page" id="page1">
+
+    <div data-theme="a" data-position="fixed" data-id="topo" data-role="header">
+        <h3>
+            Vida Saudavel
+        </h3>
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li>
+                    <a href="#page1" data-transition="fade" data-theme="" data-icon="star"
+                    class="ui-btn-active ui-state-persist">
+                        Meus Dados
+                    </a>
+                </li>
+                <li>
+                    <a href="#page2" data-transition="fade" data-theme="" data-icon="info">
+                        Sugestões
+                    </a>
+                </li>
+                <li>
+                    <a href="#page3" data-transition="fade" data-theme="" data-icon="bars">
+                        Catálogo
+                    </a>
+                </li>
+                <li>
+                    <a href="#page4" data-transition="fade" data-theme="" data-icon="home">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+	
+	<form id="mycontact">
  
                      <fieldset>
  
@@ -52,13 +98,138 @@
  
                 <button id="btnDrop" type=submit>DROP</button>
  
-              </form><br />
- 
-        <div id="results"></div>
- 
-</body>
- 
- <script type="text/javascript" src="ExercisePage3JS.js"> </script>
+              </form>
+    </div>
+    <div data-theme="a" data-position="fixed" data-id="rodape" data-role="footer">
+        <h1>
+            Todos os direitos reservados a Carlos Costa
+        </h1>
+    </div>
+</div>
+<div data-role="page" id="page2">
+    <div data-theme="a" data-position="fixed" data-id="topo" data-role="header">
+        <h3>
+            Vida Saudavel
+        </h3>
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li>
+                    <a href="#page1" data-transition="fade" data-theme="" data-icon="star">
+                        Meus Dados
+                    </a>
+                </li>
+                <li>
+                    <a href="#page2" data-transition="fade" data-theme="" data-icon="info"
+					class="ui-btn-active ui-state-persist">
+                        Sugestões
+                    </a>
+                </li>
+                <li>
+                    <a href="#page3" data-transition="fade" data-theme="" data-icon="bars">
+                        Catálogo
+                    </a>
+                </li>
+                <li>
+                    <a href="#page4" data-transition="fade" data-theme="" data-icon="home">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+	
+	<div id="results"></div>
+    </div>
+    <div data-theme="a" data-position="fixed" data-id="rodape" data-role="footer">
+        <h1>
+            Todos os direitos reservados a Carlos Costa
+        </h1>
+    </div>
+</div>
+<div data-role="page" id="page3">
+    <div data-theme="a" data-position="fixed" data-id="topo" data-role="header">
+        <h3>
+            Vida Saudavel
+        </h3>
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li>
+                    <a href="#page1" data-transition="fade" data-theme="" data-icon="star">                    
+                        Meus Dados
+                    </a>
+                </li>
+                <li>
+                    <a href="#page2" data-transition="fade" data-theme="" data-icon="info">
+                        Sugestões
+                    </a>
+                </li>
+                <li>
+                    <a href="#page3" data-transition="fade" data-theme="" data-icon="bars"
+					class="ui-btn-active ui-state-persist">
+                        Catálogo
+                    </a>
+                </li>
+                <li>
+                    <a href="#page4" data-transition="fade" data-theme="" data-icon="home">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+	
+	teste3
+    </div>
+    <div data-theme="a" data-position="fixed" data-id="rodape" data-role="footer">
+        <h1>
+            Todos os direitos reservados a Carlos Costa
+        </h1>
+    </div>
+</div>
+<div data-role="page" id="page4">
+    <div data-theme="a" data-position="fixed" data-id="topo" data-role="header">
+        <h3>
+            Vida Saudavel
+        </h3>
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li>
+                    <a href="#page1" data-transition="fade" data-theme="" data-icon="star">
+                        Meus Dados
+                    </a>
+                </li>
+                <li>
+                    <a href="#page2" data-transition="fade" data-theme="" data-icon="info">
+                        Sugestões
+                    </a>
+                </li>
+                <li>
+                    <a href="#page3" data-transition="fade" data-theme="" data-icon="bars">
+                        Catálogo
+                    </a>
+                </li>
+                <li>
+                    <a href="#page4" data-transition="fade" data-theme="" data-icon="home"
+					class="ui-btn-active ui-state-persist">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+	
+	teste4
+    </div>
+    <div data-theme="a" data-position="fixed" data-id="rodape" data-role="footer">
+        <h1>
+            Todos os direitos reservados a Carlos Costa
+        </h1>
+    </div>
+</div>
+</body> <script type="text/javascript" src="ExercisePage3JS.js"> </script>
  
 </html>
  
